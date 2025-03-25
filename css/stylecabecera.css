@@ -5,7 +5,7 @@ html, body {
 
 .header {
     width: 100%;              /* Ocupa todo el ancho de la página */
-    height: 259px;            /* Altura exacta de la imagen original */
+    height: 269px;            /* Altura exacta de la imagen original */
     overflow: hidden;         /* Evita desbordamientos */
     background-color: #f0f0f0; /* Color de fondo por si la imagen no carga */
 }
