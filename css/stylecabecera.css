@@ -1,6 +1,6 @@
 .header {
     width: 100%;              /* Ocupa todo el ancho de la página */
-    height: 200px;            /* Altura fija para la cabecera */
+    height: 300px;            /* Altura fija para la cabecera */
     overflow: hidden;         /* Evita desbordamientos */
     
 }
