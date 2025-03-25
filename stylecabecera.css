@@ -1,0 +1,13 @@
+.header {
+    width: 100%;              /* Ocupa todo el ancho de la página */
+    height: 200px;            /* Altura fija para la cabecera */
+    overflow: hidden;         /* Evita desbordamientos */
+    background-color: #f0f0f0; /* Color de fondo por si la imagen no carga */
+}
+
+.header img {
+    width: 100%;              /* La imagen llena el ancho del contenedor */
+    height: 100%;             /* La imagen llena la altura del contenedor */
+    object-fit: cover;        /* Cubre el contenedor sin distorsionarse */
+    display: block;           /* Elimina espacios en blanco debajo */
+}
