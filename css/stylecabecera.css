@@ -1,6 +1,12 @@
+html, body {
+    height: 100%; /* Asegura que el body y html tengan altura completa */
+    margin: 0;    /* Elimina márgenes por defecto */
+    padding: 0;   /* Elimina rellenos por defecto */
+}
+
 .header {
     width: 100%;              /* Ocupa todo el ancho de la página */
-    height: 100%;            /* Altura fija para la cabecera */
+    height: 100vh;            /* Altura completa de la ventana visible */
     overflow: hidden;         /* Evita desbordamientos */
     background-color: #f0f0f0; /* Color de fondo por si la imagen no carga */
 }
