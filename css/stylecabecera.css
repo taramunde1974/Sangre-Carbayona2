@@ -1,19 +1,19 @@
 .header {
-    width: 100%;
-    height: 300px; /* Ajusta esta altura según sea necesario */
-    background-image: url('https://i.postimg.cc/0ytDwssy/Sangre-Carbayona-C-D-Oviedo-Stadium-Ovetense.jpg'); /* Cambia esta ruta a la de tu imagen */
-    background-size: cover; /* Asegura que la imagen cubra completamente la cabecera */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    overflow: hidden;
-    background-color: #f0f0f0;
-}
-
-.header img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor */
-    display: block;
-}
+            width: 100%;
+            height: 300px;
+            background-image: url('https://i.postimg.cc/0ytDwssy/Sangre-Carbayona-C-D-Oviedo-Stadium-Ovetense.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            background-color: #f0f0f0;
+        }
+        
+        .header img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
 
 
