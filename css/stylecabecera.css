@@ -1,20 +1,13 @@
-html, body {
-    margin: 0;    /* Elimina márgenes por defecto */
-    padding: 0;   /* Elimina rellenos por defecto */
-}
-
 .header {
-    width: 100%;              /* Ocupa todo el ancho de la página */
-    height: 269px;            /* Altura exacta de la imagen original */
-    overflow: hidden;         /* Evita desbordamientos */
-    background-color: #f0f0f0; /* Color de fondo por si la imagen no carga */
+    width: 100%;
+    overflow: hidden;
+    background-color: #f0f0f0;
 }
 
 .header img {
-    width: 100%;              /* La imagen llena el ancho del contenedor */
-    height: 100%;             /* La imagen llena la altura del contenedor */
-    object-fit: contain;      /* Muestra la imagen completa sin recortarla */
-    display: block;           /* Elimina espacios en blanco debajo */
+    width: 100%;
+    height: auto; /* La altura se ajusta automáticamente */
+    display: block;
 }
 
 
