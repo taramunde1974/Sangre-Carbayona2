@@ -14,6 +14,7 @@
     width: 100%; /* La imagen ocupa todo el ancho del contenedor */
     height: auto; /* Mantiene la proporción de aspecto */
     display: block; /* Elimina cualquier espacio extra debajo de la imagen */
+    max-height: 200px; /* Altura máxima para evitar que se corte en móviles */
 }
 
 .header-container {
