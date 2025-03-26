@@ -1,8 +1,0 @@
-/* Variables globales */
-:root {
-    --color-primary: #333; /* Color principal */
-    --color-secondary: #ccc; /* Color secundario */
-    --color-text: #fff; /* Color del texto */
-    --font-family: Arial, sans-serif; /* Fuente principal */
-    --max-width: 1200px; /* Ancho máximo para contenedores */
-}
