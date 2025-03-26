@@ -1,13 +1,19 @@
 /* Estilos del header */
 .header {
-    height: 300px; /* Altura fija para PC */
     background-color: var(--color-primary);
     color: var(--color-text);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
+}
+
+.logo-full-width {
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    overflow: hidden; /* Evita desbordamientos */
+}
+
+.logo-full-width img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto */
+    display: block; /* Elimina cualquier espacio extra debajo de la imagen */
 }
 
 .header-container {
@@ -16,13 +22,8 @@
     align-items: center;
     width: 90%;
     max-width: var(--max-width);
-    margin: 0 auto;
+    margin: 0 auto; /* Centrado horizontal */
     padding: 20px 0;
-}
-
-.logo img {
-    width: 100px;
-    height: auto;
 }
 
 .nav-list {
@@ -35,6 +36,10 @@
     color: var(--color-text);
     text-decoration: none;
     font-size: 1rem;
+}
+
+.header-content {
+    padding: 20px 0;
 }
 
 .header-content h1 {
